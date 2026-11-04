@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "CPS Universal Downloader Extension",
+  "version": "4.2.0",
+  "description": "Download supported public web video and images with CPS Universal Downloader Basic.",
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:38473/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CPS Universal Downloader",
+    "default_icon": {
+      "512": "icons/icon512.png"
+    }
+  },
+  "icons": {
+    "512": "icons/icon512.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "exclude_matches": [
+        "https://web.telegram.org/*",
+        "https://webk.telegram.org/*",
+        "https://webz.telegram.org/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}

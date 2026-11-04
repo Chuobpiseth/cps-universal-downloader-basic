@@ -1,0 +1,7 @@
+Platform logo SVG assets are sourced from https://svgl.app/ and bundled locally for UI display.
+YouTube, TikTok, Facebook, and Gemini names and logos remain trademarks of their respective owners.
+Source URLs:
+- https://svgl.app/library/youtube.svg
+- https://svgl.app/library/tiktok-icon-light.svg
+- https://svgl.app/library/facebook-icon.svg
+- https://svgl.app/library/gemini.svg
