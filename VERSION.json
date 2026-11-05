@@ -1,0 +1,11 @@
+{
+  "product": "CPS Universal Downloader",
+  "channel": "stable",
+  "latestRelease": "1.3.0",
+  "publicSourceVersion": "1.3.0",
+  "publicSourceBranch": "main",
+  "publicSourceTag": "v1.3.0",
+  "releaseRepository": "Chuobpiseth/cps-universal-downloader-basic",
+  "releaseIndexSchema": 1
+}
+
