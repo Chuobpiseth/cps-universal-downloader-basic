@@ -36,7 +36,7 @@ CPS Universal Downloader 1.3.1 brings major stability improvements, direct brows
 
 ### 🩹 Hotfix (binaries updated, version unchanged)
 - Fixed a bug where activating, importing, or deactivating a plugin/feature license could leave the app stuck on the "Starting…" splash screen until manually restarted.
-- The splash screen now shows a retry button if startup fails, instead of spinning indefinitely.
+- The splash screen now shows a retry button if startup fails, instead of spinning indefinitely, and that retry no longer reloads the page (which could itself break the desktop bridge and show a "bootstrap is not a function" error).
 
 ---
 
@@ -44,6 +44,6 @@ CPS Universal Downloader 1.3.1 brings major stability improvements, direct brows
 
 | File | SHA-256 Checksum |
 | :--- | :--- |
-| `CPS-Universal-Downloader-v1.3.1-Portable.exe` | `154b72be85fac38258383dbc4a2823000c4107660f34b38528635a92f35c141f` |
-| `CPS-Universal-Downloader-v1.3.1-Setup.exe` | `27e1a3e3d307f047743e4dcd826bb80e863ccde292312ddacbb4717d33314242` |
-| `CPS-Universal-Downloader-v1.3.1-Windows-x64-Single-EXE.zip` | `dff1c54b64b84c54f891e893020d6ae388f3f3118071374fcff40284a1906eea` |
+| `CPS-Universal-Downloader-v1.3.1-Portable.exe` | `67efb46d37e1e6237d413a017b578b4ce0b5b480e0881e04ce8893a8ed4dcc89` |
+| `CPS-Universal-Downloader-v1.3.1-Setup.exe` | `16f3f474ca4e04aec8e9e1b5743daa95929d383bff047410b5ceefe97746862d` |
+| `CPS-Universal-Downloader-v1.3.1-Windows-x64-Single-EXE.zip` | `ba55d7aecda6ba479af25c6772ef1ed84f8f20fa8e80456b362649becf311060` |
