@@ -34,12 +34,16 @@ CPS Universal Downloader 1.3.1 brings major stability improvements, direct brows
 ### 🔌 Optional Trusted Plugins
 - Telegram Private Content download plugin available in the Plugins tab with offline hardware-bound signed licensing and complete local privacy.
 
+### 🩹 Hotfix (binaries updated, version unchanged)
+- Fixed a bug where activating, importing, or deactivating a plugin/feature license could leave the app stuck on the "Starting…" splash screen until manually restarted.
+- The splash screen now shows a retry button if startup fails, instead of spinning indefinitely.
+
 ---
 
 ## Verifying Downloads
 
 | File | SHA-256 Checksum |
 | :--- | :--- |
-| `CPS-Universal-Downloader-v1.3.1-Portable.exe` | `ddcc8ebb2e9eee367ec2622428ab0ff55dcda15da0ee82ebe99954661c8ecca5` |
-| `CPS-Universal-Downloader-v1.3.1-Setup.exe` | `cfe89d5f23673fa849b82facdbcf53bd65b59ac88c24017dde663678f2196dcc` |
-| `CPS-Universal-Downloader-v1.3.1-Windows-x64-Single-EXE.zip` | `b5d6b915e12ba6a410343e8bb2db3b80fcdd349de1d8037df77d34dfe8644520` |
+| `CPS-Universal-Downloader-v1.3.1-Portable.exe` | `154b72be85fac38258383dbc4a2823000c4107660f34b38528635a92f35c141f` |
+| `CPS-Universal-Downloader-v1.3.1-Setup.exe` | `27e1a3e3d307f047743e4dcd826bb80e863ccde292312ddacbb4717d33314242` |
+| `CPS-Universal-Downloader-v1.3.1-Windows-x64-Single-EXE.zip` | `dff1c54b64b84c54f891e893020d6ae388f3f3118071374fcff40284a1906eea` |
