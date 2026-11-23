@@ -1,3 +1,0 @@
-67efb46d37e1e6237d413a017b578b4ce0b5b480e0881e04ce8893a8ed4dcc89  CPS-Universal-Downloader-v1.3.1-Portable.exe
-16f3f474ca4e04aec8e9e1b5743daa95929d383bff047410b5ceefe97746862d  CPS-Universal-Downloader-v1.3.1-Setup.exe
-ba55d7aecda6ba479af25c6772ef1ed84f8f20fa8e80456b362649becf311060  CPS-Universal-Downloader-v1.3.1-Windows-x64-Single-EXE.zip
